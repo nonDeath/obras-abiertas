@@ -210,6 +210,7 @@ acorde a la [seccion correspondiente al archivo de configuración](#archivo-de-c
 * Levantar el servidor de desarrollo via `grunt serve` en la carpeta raiz del proyecto
 * Hacer los cambios en /app y con live reloading se actualizará en http://localhost:10000
 * Una vez que se cuenta con los cambios deseados, compilar assets via `grunt build` en la carpeta raiz del proyecto
+* Luego de compilar via `grunt build` la carpeta dist estara lista para llevarse a un servidor web y adicionalmente se deberan copiar dentro de la misma los archivos `config.js` y `data.csv`.
 
 ### Adaptación estetica
 
@@ -233,6 +234,7 @@ La aplicación contiene su código y las librerías que necesita, ya compiladas 
 * No se requiere salida a internet desde el servidor.
 * No se requieren instalación de dependencias.
 * Todo lo necesario está compilado y minificado en estáticos (html, css, js e imágenes), dentro de la carpeta `/dist`.
+* La carpeta dist estara lista para llevarse a un servidor web y adicionalmente se deberan copiar dentro de la misma los archivos `config.js` y `data.csv`.
 
 ### Configuración
 
