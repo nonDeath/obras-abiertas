@@ -19,6 +19,7 @@ angular
        c["Hidráulica e Infraestructura"] = "#BD3E93";
        c["Transporte"] = "#E84D00";
        c["Vivienda"] = "#22B496";
+       c["Agua potable"] = "#22B496";
 
       return c[d];
     };
@@ -79,6 +80,7 @@ angular
       if (data.mano_obra && $scope.secondColoredLoaded) {
         $scope.secondColoredLoaded(data);
       }
+
       //setup slider
       $scope.slides = data.fotos.map(function(f) {
         return {
